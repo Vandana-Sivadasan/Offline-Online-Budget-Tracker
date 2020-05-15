@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 
-mongoose.connect("mongodb://localhost/mongoHeadlines", {
+mongoose.connect("mongodb://user1:password1@ds151702.mlab.com:51702/heroku_fmj4mg6s", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
