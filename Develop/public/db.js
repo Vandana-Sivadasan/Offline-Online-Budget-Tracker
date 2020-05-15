@@ -1,6 +1,7 @@
 let db;
 //create new db for budget db.
 const request = indexedDB.open("budget", 1);
+const MONGODB_URL = process.env.MONGODB_URL;
 request.onupgradeneeded = function (event) {
 
     // Creating object store:
