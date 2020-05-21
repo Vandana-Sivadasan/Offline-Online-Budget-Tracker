@@ -19,7 +19,7 @@ app.use(express.static("public"));
 
 mongoose.connect(
 process.env.MONGODB_URI ||
-"mongodb://user2:dbpassword2@ds035557.mlab.com:35557/heroku_qhb4t7gk", 
+"mongodb://localost/NAMEOFDATABASEHERE", 
 {
   useNewUrlParser: true,
   useFindAndModify: false
